@@ -1,7 +1,7 @@
 # rest-client
 ## http请求新工具，抛掉postman
 
-### 安装插件rest-client goland、vscode都支持
+### 安装插件rest-client。 goland、vscode都支持
 rest-client
 
 ### 使用
