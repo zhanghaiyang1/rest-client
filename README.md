@@ -13,7 +13,6 @@ rest-client
         Accept: application/json, text/plain, */*
         Cache-Control: no-cache
         Content-Type: application/json;charset=UTF-8
-        Origin: {{origin}}
         Token: {{cmsToken}}
 
         {
@@ -26,7 +25,6 @@ rest-client
 
 ######################upload
 ### 测试发送文件信息(文件元数据信息查询)
-##  Accept: application/json, text/plain, */*
       POST {{host}}/pub/upload
       Cache-Control: no-cache
       token: 1750d42e5cf1a956ef2e3cd9e4a338fa
