@@ -1,6 +1,7 @@
 # rest-client
 ## http请求新工具，抛掉postman
-
+### 优势
+postman非常吃内存，rest工具就是一个页面，非常简单实用
 ### 安装插件rest-client。 goland、vscode都支持
 rest-client
 
