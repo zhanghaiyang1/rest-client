@@ -24,8 +24,10 @@ rest-client
 
 3. 发送文件
 
-######################upload
+
 ### 测试发送文件信息(文件元数据信息查询)
+```
+######################upload
       POST {{host}}/pub/upload
       Cache-Control: no-cache
       token: 1750d42e5cf1a956ef2e3cd9e4a338fa
@@ -38,4 +40,17 @@ rest-client
 
       < /Users/ocean.z/Downloads/timg.jpeg
       --WebAppBoundary--
+      
+```
+4. application/x-www-form-urlencoded
+```
+#########################application/x-www-form-urlencoded
+POST {{host}}/cart/callback/pay
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
 
+data=xx
+&sign=xx
+&time=xx
+&partner_id=xx
